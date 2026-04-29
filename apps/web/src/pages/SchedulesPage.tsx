@@ -1,0 +1,4 @@
+import { ResourcePage } from "./ResourcePage";
+export function SchedulesPage({ companyId }: { companyId: string }) {
+  return <ResourcePage companyId={companyId} resource="schedules" title="Schedules" description={'Create cron schedules. Use task_template {"type":"daily_report"} for the daily CEO report.'} columns={["name", "cron", "enabled", "missed_job_policy", "last_run_at"]} fields={[{ key: "company_id", label: "Company ID" }, { key: "agent_id", label: "Agent" }, { key: "name", label: "Name", default: "Daily CEO Report" }, { key: "cron", label: "Cron", default: "0 17 * * *" }, { key: "task_template", label: "Task template JSON", type: "textarea", default: "{\"type\":\"daily_report\"}" }, { key: "enabled", label: "Enabled", type: "number", default: 1 }, { key: "missed_job_policy", label: "Missed job policy", default: "run_if_less_than_6_hours_late" }]} />;
+}

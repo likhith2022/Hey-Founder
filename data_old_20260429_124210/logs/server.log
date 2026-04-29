@@ -1,0 +1,63 @@
+{"at":"2026-04-28T18:25:20.128Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T18:25:35.397Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T18:29:15.900Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T18:30:43.007Z","level":"warn","message":"Provider connection test failed","metadata":{"provider":"gemini","model":"gemini-flash-latest","error":"PROVIDER_REQUEST_FAILED","message":"Gemini returned an empty test response. Check the selected model."}}
+{"at":"2026-04-28T18:34:43.024Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T18:34:48.153Z","level":"error","message":"Job failed","metadata":{"id":"job_6eb1a226eb274e7da649be647d6b8764","message":"Invalid URL"}}
+{"at":"2026-04-28T18:34:52.051Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T18:35:19.460Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T18:37:51.481Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T18:44:34.748Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T18:57:46.704Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T19:01:57.442Z","level":"error","message":"Chat command failed","metadata":{"intent":"ask_ceo","error":"Gemini request failed. Check your API key/model in Secrets."}}
+{"at":"2026-04-28T19:04:20.188Z","level":"error","message":"Chat command failed","metadata":{"intent":"ask_ceo","error":"fetch failed"}}
+{"at":"2026-04-28T19:04:46.647Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T19:04:56.730Z","level":"error","message":"Chat command failed","metadata":{"intent":"ask_ceo","error":"fetch failed"}}
+{"at":"2026-04-28T19:05:16.089Z","level":"error","message":"Chat command failed","metadata":{"intent":"ask_ceo","error":"fetch failed"}}
+{"at":"2026-04-28T19:28:10.749Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T19:28:18.191Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T19:31:46.393Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-28T23:46:57.686Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T04:08:06.750Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T04:15:53.379Z","level":"warn","message":"CEO returned invalid company build JSON","metadata":{"issues":[{"code":"invalid_type","expected":"object","received":"[REDACTED_SECRET]","path":[],"message":"Expected object, received null"}],"responsePreview":"{\n  \"departments\": [\n    {\n      \"name\": \"Product Strategy & Development\",\n      \"description\": \"Responsible for defining the product roadmap, features, and user experience of the NovaStack AI email assistant.\",\n      \"reason\": \"Essential for guiding the core product's evolution and ensuring it meets market needs and founder vision.\"\n    },\n    {\n      \"name\": \"Marketing & Growth\",\n      \"description\": \"Focuses on market positioning, customer acquisition strategies, and the successful launch of new products and features.\",\n      \"reason\": \"Crucial for achieving sharper positioning, reaching target customers, and driving the launch of the AI email assistant landing page.\"\n    },\n    {\n      \"name\": \"Content & Communications\",\n      \"description\": \"Manages all customer-facing copy, brand messaging, and ensures a consistent, confident, and human tone across all communications.\",\n      \"reason\": \"Needed to develop the launch landing page copy, create repeatable customer-facing content, and"}}
+{"at":"2026-04-29T04:15:53.381Z","level":"error","message":"Chat command failed","metadata":{"intent":"build_company","error":"CEO returned an invalid company-build plan. Try again or test the selected CEO model in Secrets → Model Manager."}}
+{"at":"2026-04-29T05:14:03.475Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:14:38.577Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:14:49.816Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:14:56.240Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:20:37.712Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:31:07.672Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:31:15.815Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:31:20.557Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:31:33.235Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:31:42.313Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:45:33.218Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:51:15.545Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:51:23.773Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:51:32.917Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:54:30.918Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:54:39.656Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:54:48.442Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:54:52.509Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:55:40.523Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:55:49.869Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:55:54.313Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:58:45.440Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T05:58:52.488Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:05:43.487Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:07:01.182Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:07:12.752Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:08:17.314Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:12:24.247Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:15:45.381Z","level":"error","message":"Chat command failed","metadata":{"intent":"war_room","error":"Gemini request failed. Check your API key/model in Secrets."}}
+{"at":"2026-04-29T06:17:42.698Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:22:18.913Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:24:20.637Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:25:48.713Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:25:58.241Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:26:33.241Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:27:47.510Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:27:57.886Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:28:24.049Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T06:33:21.791Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}
+{"at":"2026-04-29T07:07:01.979Z","level":"info","message":"AI Company OS listening on http://0.0.0.0:7878"}

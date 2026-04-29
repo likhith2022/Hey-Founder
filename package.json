@@ -1,0 +1,24 @@
+{
+  "name": "ai-company-os",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "corepack pnpm --parallel --filter @ai-company-os/server --filter @ai-company-os/web dev",
+    "build": "corepack pnpm --filter @ai-company-os/server build && corepack pnpm --filter @ai-company-os/web build",
+    "start": "corepack pnpm --filter @ai-company-os/server start",
+    "lint": "corepack pnpm --filter @ai-company-os/server lint && corepack pnpm --filter @ai-company-os/web lint",
+    "smoke": "corepack pnpm build && corepack pnpm exec tsx scripts/smoke.ts",
+    "demo:software-company": "corepack pnpm exec tsx scripts/demoSoftwareCompany.ts",
+    "demo:reset": "corepack pnpm exec tsx scripts/demoReset.ts",
+    "admin:reset-password": "corepack pnpm exec tsx scripts/resetAdminPassword.ts",
+    "test:e2e": "corepack pnpm exec playwright test",
+    "license:check": "corepack pnpm exec tsx scripts/licenseCheck.ts",
+    "compliance:check": "corepack pnpm exec tsx scripts/complianceCheck.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

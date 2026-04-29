@@ -1,0 +1,10 @@
+services:
+  ai-company-os:
+    build: .
+    ports:
+      - "7878:7878"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
